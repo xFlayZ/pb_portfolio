@@ -1,1 +1,217 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pagepiling.js/dist/jquery.pagepiling.min.css"
+    />
+    <!--<script src="assets/scripts/script.js"></script>-->
+    <title>Pierre Portfolio</title>
+  </head>
+
+  <body>
+    <header
+      class="fixed bg-slate-900 top-0 left-0 w-full p-20 py-10 px-32 flex justify-between items-center z-50"
+    >
+      <!-- navbar -->
+
+      <a href="#home" class="logo flex items-center">
+        <div class="text-5xl font-bold text-sky-50">
+          <i class="fa-solid fa-terminal"></i>
+          Pierre<span class="text-blue-500">;</span>
+        </div>
+      </a>
+
+      <nav class="navbar text-sky-50 text-2xl font-light space-x-9">
+        <a href="#home" class="nav-link home active">Home</a>
+        <a href="#about" class="nav-link about">Über mich</a>
+        <a href="#resume" class="nav-link resume">Lebenslauf</a>
+        <a href="#projects" class="nav-link projects">Projekte</a>
+      </nav>
+    </header>
+
+    <div id="pagepiling">
+      <div id="home" class="section">
+        <div class="h-screen flex items-center p-0 px-32">
+          <div class="w-1/2">
+            <div class="text-5xl font-bold mb-1">
+              Hi! Ich bin Pierre<span class="text-blue-500">;</span>
+            </div>
+            <div class="text-2xl font-semibold text-blue-500 mb-5">
+              Frontend Developer
+            </div>
+            <div class="mb-5">
+              „Code is like humor. When you have to explain it, it's bad.“
+            </div>
+            <div class="pogress-box mb-12">
+              <div class="html mb-3">
+                <div class="flex justify-between mb-1">
+                  <span
+                    class="text-base font-medium text-sky-50 dark:text-white"
+                    >HTML & CSS</span
+                  >
+                </div>
+                <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                  <div
+                    class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                    style="width: 80%"
+                  >
+                    80%
+                  </div>
+                </div>
+              </div>
+              <div class="angular mb-3">
+                <div class="flex justify-between mb-1">
+                  <span
+                    class="text-base font-medium text-sky-50 dark:text-white"
+                    >Angular & Typescript</span
+                  >
+                </div>
+                <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                  <div
+                    class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                    style="width: 70%"
+                  >
+                    70%
+                  </div>
+                </div>
+              </div>
+              <div class="design mb-3">
+                <div class="flex justify-between mb-1">
+                  <span
+                    class="text-base font-medium text-sky-50 dark:text-white"
+                    >UI / UX</span
+                  >
+                </div>
+                <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                  <div
+                    class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                    style="width: 50%"
+                  >
+                    50%
+                  </div>
+                </div>
+              </div>
+              <div class="special">
+                <div class="flex justify-between mb-1">
+                  <span
+                    class="text-base font-medium text-sky-50 dark:text-white"
+                    >Teamfähig</span
+                  >
+                </div>
+                <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                  <div
+                    class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
+                    style="width: 100%"
+                  >
+                    100%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="btn-animate inline-flex w-52 h-14 justify-center items-center bg-sky-500 text-lg"
+              href="mailto:pierrebrandtner@live.de"
+              ><div class="btn-front">Kontaktieren</div>
+              <div class="btn-back">
+                <i class="fa fa-envelope"></i>
+              </div>
+            </a>
+          </div>
+          <div class="w-3/4 flex justify-center items-center h-screen">
+            <img
+              src="assets/images/profile_picture.png"
+              alt="profile_picture"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="about" class="section">
+        <div class="h-screen flex items-center p-0 px-32">
+          <div class="w-1/2">
+            <div class="ml-96 mb-20">
+              <i class="fa-solid fa-address-card custom-icon"></i>
+            </div>
+            <div class="w-full mb-20">
+              Seitdem hat mich die Faszination für die Gestaltung und
+              Entwicklung von Benutzeroberflächen nicht mehr losgelassen. Mein
+              Fokus liegt dabei ganz auf der Frontend-Entwicklung. Besonders
+              angetan haben es mir Angular sowie eine Auswahl an Frameworks wie
+              Bootstrap und Tailwind. Darüber hinaus habe ich meine eigene
+              Sammlung von kleinen Libraries entwickelt, die es mir ermöglichen,
+              kreative und effiziente Lösungen zu kreieren.
+            </div>
+            <div class="ml-96">
+              <i class="fa-solid fa-pen custom-icon"></i>
+            </div>
+          </div>
+          <div class="w-1/2">
+            <div class="w-full mb-20">
+              Ich bin Pierre, geboren am 30. November 1998. Meine Reise in die
+              Welt der Technologie begann im August 2017, als ich meine
+              Ausbildung als Fachinformatiker für Anwendungsentwicklung begann.
+              Diese Reise führte mich zu einem spannenden Abschluss im Januar
+              2021.
+            </div>
+            <div class="ml-96 mb-20">
+              <i class="fa-brands fa-angular custom-icon"></i>
+            </div>
+            <div class="w-full">
+              Ich glaube daran, dass jedes Design eine Geschichte erzählen kann,
+              und ich bin stets bestrebt, durch meine Arbeit nicht nur visuell
+              ansprechende, sondern auch benutzerzentrierte Erlebnisse zu
+              schaffen. Die Welt des Frontend-Entwicklungs bietet unendliche
+              Möglichkeiten, und ich bin begeistert, jeden Tag neue Wege zu
+              erkunden, wie Technologie und Design Hand in Hand gehen können.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="resume" class="section">
+        <div class="h-screen flex items-center p-0 px-32">resume</div>
+      </div>
+      <div id="projects" class="section">
+        <div class="h-screen flex items-center p-0 px-32">projects</div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pagepiling.js/dist/jquery.pagepiling.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#pagepiling").pagepiling({
+          menu: null,
+          anchors: ["home", "about", "resume", "projects"],
+          sectionsColor: ["#0F172A", "#082F49", "#172554", "#1E1B4B"],
+          navigation: {
+            textColor: "#000",
+            bulletsColor: "#F0F9FF",
+            position: "right",
+            tooltips: ["Home", "Über mich", "Lebenslauf", "Projekte"],
+          },
+          loopBottom: false,
+          loopTop: false,
+          verticalCentered: false,
+
+          afterLoad: function (anchorLink, index) {
+            $(".nav-link").removeClass("active");
+            $(".nav-link." + anchorLink).addClass("active");
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
